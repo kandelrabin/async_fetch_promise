@@ -24,7 +24,7 @@ const fetchDogImage = async () => {
         dogImage.src = url;
         imagesContainer.appendChild(dogImage);
     });
-    document.querySelector("body").appendChild("imagesContainer");
+    document.querySelector("body").appendChild(imagesContainer);
 }
 
 
