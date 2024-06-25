@@ -26,7 +26,7 @@ const fetchDogImage = async () => {
     });
     document.querySelector("body").appendChild(imagesContainer);
 }
-
+// semantic alternative for div: section, articles
 
 
 
